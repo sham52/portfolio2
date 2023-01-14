@@ -6,7 +6,7 @@
 
 @layer base {
   body{
-    @apply bg-gradient-to-t from-slate-400 to-slate-800 
+    @apply bg-gray-400
       tracking-wide
   }
   h1, h2, h3, h4, h5, h6 {

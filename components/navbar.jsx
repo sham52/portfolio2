@@ -12,33 +12,33 @@ const Navbar = () => {
   };
 
   return (
-    <div className="fixed w-full h-20 shadow-xl z-[100] bg-slate-900">
+    <div className="fixed w-full h-20 shadow-xl z-[100] bg-black/20">
       <div className="flex justify-between items-center w-full h-full px-2 2xl:px-16">
         <Image  width="100" height="50" src="/assets/sham.png" />
         <div>
           <ul className="hidden md:flex">
             <Link href="/">
-              <li className=" text-[#e2e8f0] ml-10 text-sm uppercase hover:border-b bg-slate-700 p-2 rounded-xl ">
+              <li className=" text-[#e2e8f0] ml-10 text-sm uppercase hover:border-b  ">
                 Home
               </li>
             </Link>
             <Link href="/">
-              <li className=" text-[#e2e8f0] ml-10 text-sm uppercase hover:border-b bg-slate-700 p-2 rounded-xl">
+              <li className=" text-[#e2e8f0] ml-10 text-sm uppercase hover:border-b ">
                 About
               </li>
             </Link>
             <Link href="/">
-              <li className=" text-[#e2e8f0] ml-10 text-sm uppercase hover:border-b bg-slate-700 p-2 rounded-xl">
+              <li className=" text-[#e2e8f0] ml-10 text-sm uppercase hover:border-b ">
                 Skills
               </li>
             </Link>
             <Link href="/">
-              <li className=" text-[#e2e8f0] ml-10 text-sm uppercase hover:border-b bg-slate-700 p-2 rounded-xl">
+              <li className=" text-[#e2e8f0] ml-10 text-sm uppercase hover:border-b ">
                 Projects
               </li>
             </Link>
             <Link href="/">
-              <li className=" text-[#e2e8f0] ml-10 text-sm uppercase hover:border-b bg-slate-700 p-2 rounded-xl">
+              <li className=" text-[#e2e8f0] ml-10 text-sm uppercase hover:border-b ">
                 Contact
               </li>
             </Link>

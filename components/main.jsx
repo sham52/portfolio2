@@ -18,7 +18,7 @@ const Main = () => {
             src="/assets/shamil.jpg"
           />
           <h1 className="text-white">
-            Hi, I'm <span className="text-slate-900">Shamil</span>
+            Hi, I'm <span className="text-indigo-700">Shamil</span>
           </h1>
           <h1 className="text-white py-2">An Engineering Student</h1>
           <p className="text-lg py-4 text-white max-w-[70%] m-auto">

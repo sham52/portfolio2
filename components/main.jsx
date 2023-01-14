@@ -1,24 +1,24 @@
 import React from "react";
 import Image from "next/image";
 import { FaGithub, FaLinkedinIn, FaTwitter, FaYoutube } from "react-icons/fa";
-import { AiOutlineMail } from "react-icons/ai";
+// import { AiOutlineMail } from "react-icons/ai";
 
 const Main = () => {
   return (
     <div className="w-full h-screen text-center">
       <div className="max-w-[1240px] w-full h-full mx-auto p-2 flex justify-center items-center">
         <div className="flex flex-col justify-center items-center">
-          <p className="uppercase text-sm tracking-widest text-gray-100">
+          <p className="uppercase text-sm tracking-widest border-b text-white border-slate-500 ">
             JACK OF ALL TRADES
           </p>
           <Image
-            className="my-2 rounded-full border-4 border-slate-300 hover:scale-105 ease-in duration-200"
+            className="my-2 rounded-full border-4 border-slate-500 hover:scale-105 ease-in duration-200"
             height="250"
             width="250"
             src="/assets/shamil.jpg"
           />
           <h1 className="text-white">
-            Hi, I'm <span className="text-indigo-700">Shamil</span>
+            Hi, I'm <span className="text-cyan-500">Shamil</span>
           </h1>
           <h1 className="text-white py-2">An Engineering Student</h1>
           <p className="text-lg py-4 text-white max-w-[70%] m-auto">

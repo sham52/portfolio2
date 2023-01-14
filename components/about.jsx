@@ -5,7 +5,7 @@ const About = () => {
     <div className="w-full md:h-screen p-2 flex items-center py-16">
       <div className="max-w-[1240px] m-auto md:grid grid-cols-2 gap-8">
         <div className="col-span-2">
-          <p className="uppercase text-xl tracking-widest text-white">
+          <p className="uppercase text-xl tracking-widest text-white border-b ">
             About
           </p>
           <h2 className="py-2 text-white">Who I Am</h2>
@@ -30,7 +30,7 @@ const About = () => {
             vitae egestas. Integer vulputate dolor hendrerit erat aliquet, nec
             gravida eros porttitor.
           </p>
-          <p classname="py-2 text-indigo-200">
+          <p classname="py-2 text-white">
             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam
             feugiat fringilla ligula, ut eleifend enim. Sed posuere metus auctor
             arcu molestie, congue sodales leo elementum. Aliquam ut ante ac nibh

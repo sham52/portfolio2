@@ -1,5 +1,5 @@
 import React from "react";
-import Image from "next/image";
+import Image from "next/Image";
 import { FaGithub, FaLinkedinIn, FaTwitter, FaYoutube } from "react-icons/fa";
 // import { AiOutlineMail } from "react-icons/ai";
 

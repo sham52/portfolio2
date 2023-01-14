@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import Image from "next/image";
+import Image from "next/Image";
 import Link from "next/Link";
 import { AiOutlineClose, AiOutlineMail, AiOutlineMenu } from "react-icons/ai";
 import { FaLinkedinIn, FaGithub } from "react-icons/fa";
@@ -14,31 +14,30 @@ const Navbar = () => {
   return (
     <div className="fixed w-full h-20 shadow-xl z-[100] bg-slate-900/50">
       <div className="flex justify-between items-center w-full h-full px-2 2xl:px-16">
-        <Image  width="100" height="50" src="/assets/sham.png" />
+        <Link href="/">
+          <>
+          <Image width="100" height="50" src="/assets/sham.png" />
+          </>
+        </Link>
         <div>
           <ul className="hidden md:flex">
             <Link href="/">
-              <li className=" text-[#e2e8f0] ml-10 text-sm uppercase hover:border-b  ">
+              <li className=" text-gray-300 hover:text-white ml-10 text-sm uppercase hover:border-b  ">
                 Home
               </li>
             </Link>
             <Link href="/">
-              <li className=" text-[#e2e8f0] ml-10 text-sm uppercase hover:border-b ">
-                About
-              </li>
-            </Link>
-            <Link href="/">
-              <li className=" text-[#e2e8f0] ml-10 text-sm uppercase hover:border-b ">
+              <li className=" text-gray-300 hover:text-white  ml-10 text-sm uppercase hover:border-b ">
                 Skills
               </li>
             </Link>
             <Link href="/">
-              <li className=" text-[#e2e8f0] ml-10 text-sm uppercase hover:border-b ">
+              <li className=" text-gray-300 hover:text-white  ml-10 text-sm uppercase hover:border-b ">
                 Projects
               </li>
             </Link>
             <Link href="/">
-              <li className=" text-[#e2e8f0] ml-10 text-sm uppercase hover:border-b ">
+              <li className=" text-gray-300 hover:text-white  ml-10 text-sm uppercase hover:border-b ">
                 Contact
               </li>
             </Link>
@@ -68,7 +67,7 @@ const Navbar = () => {
         >
           <div>
             <div className="flex w-full items-center justify-between">
-              <Image width="87" height="50" alt="/" />
+              <Image src = "/assets/sham.png"width="87" height="50" alt="/" />
               <div
                 onClick={handleNav}
                 className="rounded-xl shadow-sm hover:shadow-lg transition-shadow shadow-gray-400 p-3 cursor-pointer"

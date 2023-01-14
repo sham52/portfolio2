@@ -9,8 +9,8 @@ const About = () => {
             About
           </p>
           <h2 className="py-2 text-white">Who I Am</h2>
-          
-          <p className="py-2 text-white">
+
+          <p className="py-2 text-white font-md">
             Ut rutrum dapibus quam non dapibus. Donec facilisis enim id risus
             ornare, at imperdiet ante ultricies. Mauris blandit, enim malesuada
             ultrices blandit, leo purus bibendum dui, eget molestie est sapien
@@ -30,28 +30,11 @@ const About = () => {
             vitae egestas. Integer vulputate dolor hendrerit erat aliquet, nec
             gravida eros porttitor.
           </p>
-          <p classname="py-2 text-white">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam
-            feugiat fringilla ligula, ut eleifend enim. Sed posuere metus auctor
-            arcu molestie, congue sodales leo elementum. Aliquam ut ante ac nibh
-            pellentesque ultricies. Cras vitae tincidunt massa. Nullam ultrices
-            condimentum mollis. Sed blandit tellus id aliquam dignissim. Proin
-            sit amet ex elementum, volutpat sapien at, rutrum lectus. Maecenas
-            eget ullamcorper augue. Nam lacinia urna ac mi dapibus, ac maximus
-            nunc lobortis. Suspendisse eu sapien tellus. Integer tempor non
-            magna a mollis. Pellentesque auctor tempor venenatis. Nulla posuere
-            aliquam ex nec ullamcorper. Proin ullamcorper tincidunt risus ac
-            venenatis. Aenean viverra sodales pellentesque. Sed faucibus
-            vestibulum lorem non feugiat. Donec porttitor quam vitae arcu semper
-            porta. Nunc vulputate at ante eleifend consectetur. Donec
-            ullamcorper tempus finibus. Phasellus euismod ut nibh nec
-            ullamcorper. Nunc eu orci placerat, lacinia ipsum sit amet, posuere
-            nulla. Aliquam volutpat justo nec suscipit feugiat.
-          </p>
-          <p className="hover:text-slate-700 py-2 text-white underline cursor-pointer">
+
+          <p className="hover:text-white py-2 text-gray-300 underline cursor-pointer">
             Check out some of my latest videos.
           </p>
-          <div className="p-10 m-10w-[75%] h-auto m-auto flex border-8 border-slate-600 rounded-lg shadow-gray-400 shadow-md items-center justify-center">
+          <div className="w-[75%] h-auto m-auto flex border-8 border-slate-600 rounded-lg shadow-gray-400 shadow-md items-center justify-center">
             <h3>My Video Goes Here</h3>
             {/* <iframe
               className="aspect-auto md:aspect-square hover:aspect-square "

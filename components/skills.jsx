@@ -5,7 +5,9 @@ const Skills = () => {
   return (
     <div className="w-full lg:h-screen p-2">
       <div className="max-w-[1240px] mx-auto flex flex-col justify-center h-full">
-        <p className="text-xl tracking widest uppercase text-white border-b">Skills</p>
+        <p className="text-xl tracking widest uppercase text-white border-b">
+          Skills
+        </p>
         <h2 className="py-4 text-white">What I Can Do</h2>
         <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-8">
           <div className="bg-slate-500 p-6 shadow-xl rounded-xl hover:scale-105 ease-in duration-300 ">

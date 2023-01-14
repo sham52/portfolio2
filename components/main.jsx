@@ -8,6 +8,7 @@ import {
   FaYoutube,
 } from "react-icons/fa";
 // import { AiOutlineMail } from "react-icons/ai";
+import { TypeAnimation } from "react-type-animation";
 
 const Main = () => {
   return (
@@ -26,7 +27,25 @@ const Main = () => {
           <h1 className="text-white">
             Hi, I'm <span className="text-cyan-500">Shamil</span>
           </h1>
-          <h1 className="text-white py-2">An Engineering Student</h1>
+          <h1 className="text-white py-2">
+            <TypeAnimation
+              sequence={[
+                "An Engineering Student.", // Types 'One'
+                2000, // Waits 1s
+                "A Coder.", // Deletes 'One' and types 'Two'
+                2000, // Waits 2s
+                "A Guitarist.", // Types 'Three' without deleting 'Two'
+                ,
+                2000,
+                () => {
+                  console.log("Done typing!"); // Place optional callbacks anywhere in the array
+                },
+              ]}
+              wrapper="div"
+              cursor={true}
+              repeat={Infinity}
+            />
+          </h1>
           <p className="text-lg py-4 text-white max-w-[70%] m-auto">
             Hi! My name is Shamil. I am a student at{" "}
             <a
@@ -71,7 +90,11 @@ const Main = () => {
             </div>
             <div className="bg-[#5865F2] mx-2 rounded-xl shadow-md hover:shadow-lg p-5 cursor-pointer hover:scale-[110%] ease-in duration-300 ">
               <a href="https://discord.gg/MQmDAKY" target="_blank">
-                <FaDiscord className="text-[white]" href="https://discord.gg/MQmDAKY"  size={25} />
+                <FaDiscord
+                  className="text-[white]"
+                  href="https://discord.gg/MQmDAKY"
+                  size={25}
+                />
               </a>
             </div>
             {/* <div className="rounded-xl shadow-md hover:shadow-lg p-5 cursor-pointer hover:scale-[110%] ease-in duration-300">

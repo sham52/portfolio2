@@ -4,6 +4,7 @@ import Link from "next/Link";
 import { AiOutlineClose, AiOutlineMail, AiOutlineMenu } from "react-icons/ai";
 import { FaLinkedinIn, FaGithub } from "react-icons/fa";
 import { BsFillPersonLinesFill } from "react-icons/bs";
+
 const Navbar = () => {
   const [nav, setNav] = useState(false);
 
@@ -16,7 +17,7 @@ const Navbar = () => {
       <div className="flex justify-between items-center w-full h-full px-2 2xl:px-16">
         <Link href="/">
           <>
-          <Image width="100" height="50" src="/assets/sham.png" />
+            <Image width="100" height="50" src="/assets/sham.png" />
           </>
         </Link>
         <div>
@@ -67,7 +68,7 @@ const Navbar = () => {
         >
           <div>
             <div className="flex w-full items-center justify-between">
-              <Image src = "/assets/sham.png"width="87" height="50" alt="/" />
+              <Image src="/assets/sham.png" width="87" height="50" alt="/" />
               <div
                 onClick={handleNav}
                 className="rounded-xl shadow-sm hover:shadow-lg transition-shadow shadow-gray-400 p-3 cursor-pointer"

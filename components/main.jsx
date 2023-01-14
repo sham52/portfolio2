@@ -1,6 +1,12 @@
 import React from "react";
 import Image from "next/Image";
-import { FaGithub, FaLinkedinIn, FaTwitter, FaYoutube } from "react-icons/fa";
+import {
+  FaDiscord,
+  FaGithub,
+  FaLinkedinIn,
+  FaTwitter,
+  FaYoutube,
+} from "react-icons/fa";
 // import { AiOutlineMail } from "react-icons/ai";
 
 const Main = () => {
@@ -36,8 +42,8 @@ const Main = () => {
             (React, Next) and Java. I'm also playing guitar on my Youtube
             channel if you're interested.
           </p>
-          <div className="flex items-center justify-between max-w-[330px] m-auto py-4">
-            <div className="mx-2 bg-blue-900 rounded-xl shadow-md hover:shadow-lg p-5 cursor-pointer hover:scale-[110%] ease-in duration-300">
+          <div className="flex items-center justify-center max-w-[330px] m-auto py-4 ">
+            <div className="mx-2 bg-[#0A66C2] rounded-xl shadow-md hover:shadow-lg p-5 cursor-pointer hover:scale-[110%] ease-in duration-300 ">
               <a
                 target="_blank"
                 href="https://www.linkedin.com/in/%C5%9Famil-altun%C4%B1%C5%9F%C4%B1k-9a65a5235/"
@@ -45,12 +51,12 @@ const Main = () => {
                 <FaLinkedinIn className="text-white" size={25} />
               </a>
             </div>
-            <div className="mx-2 bg-indigo-700 rounded-xl shadow-md hover:shadow-lg p-5 cursor-pointer hover:scale-[110%] ease-in duration-300">
+            <div className="mx-2 bg-indigo-600 rounded-xl shadow-md hover:shadow-lg p-5 cursor-pointer hover:scale-[110%] ease-in duration-300">
               <a target="_blank" href="https://github.com/Shamil52">
                 <FaGithub className="text-white" size={25} />
               </a>
             </div>
-            <div className="bg-red-700 mx-2 rounded-xl shadow-md hover:shadow-lg p-5 cursor-pointer hover:scale-[110%] ease-in duration-300">
+            <div className="bg-[#FF0000] mx-2 rounded-xl shadow-md hover:shadow-lg p-5 cursor-pointer hover:scale-[110%] ease-in duration-300">
               <a
                 href="https://www.youtube.com/channel/UCOI8aM3S3rOkDdWoq13oyyg"
                 target="_blank"
@@ -58,9 +64,14 @@ const Main = () => {
                 <FaYoutube className="text-white" size={25} />
               </a>
             </div>
-            <div className="bg-blue-600 mx-2 rounded-xl shadow-md hover:shadow-lg p-5 cursor-pointer hover:scale-[110%] ease-in duration-300">
+            <div className="bg-[#00acee] mx-2 rounded-xl shadow-md hover:shadow-lg p-5 cursor-pointer hover:scale-[110%] ease-in duration-300">
               <a href="https://twitter.com/guitaristeen" target="_blank">
                 <FaTwitter className="text-white" size={25} />
+              </a>
+            </div>
+            <div className="bg-[#5865F2] mx-2 rounded-xl shadow-md hover:shadow-lg p-5 cursor-pointer hover:scale-[110%] ease-in duration-300 ">
+              <a href="https://discord.gg/MQmDAKY" target="_blank">
+                <FaDiscord className="text-[white]" href="https://discord.gg/MQmDAKY"  size={25} />
               </a>
             </div>
             {/* <div className="rounded-xl shadow-md hover:shadow-lg p-5 cursor-pointer hover:scale-[110%] ease-in duration-300">

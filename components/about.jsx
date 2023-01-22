@@ -5,33 +5,20 @@ const About = () => {
     <div className="w-full md:h-screen p-2 flex items-center py-16">
       <div className="max-w-[1240px] m-auto md:grid grid-cols-2 gap-8">
         <div className="col-span-2">
-          <p className="uppercase text-xl tracking-widest text-white border-b ">
+          <p className="uppercase text-xl tracking-widest text-slate-800 border-slate-800 border-b ">
             About
           </p>
-          <h2 className="py-2 text-white">Who I Am</h2>
+          <h2 className="py-2 text-slate-800">Who I Am</h2>
 
-          <p className="py-2 text-white font-md">
-            Ut rutrum dapibus quam non dapibus. Donec facilisis enim id risus
-            ornare, at imperdiet ante ultricies. Mauris blandit, enim malesuada
-            ultrices blandit, leo purus bibendum dui, eget molestie est sapien
-            in diam. Nam iaculis urna vitae neque interdum tincidunt. Aliquam
-            blandit porttitor nibh, sed vehicula sem ultrices at. Fusce nec
-            ipsum non urna gravida vestibulum et in neque. Sed varius tellus vel
-            blandit interdum. Praesent tristique, purus eget fermentum mollis,
-            urna velit convallis lacus, eu iaculis leo erat quis quam. Nullam
-            dapibus, nunc non efficitur malesuada, eros urna tincidunt lorem,
-            quis bibendum elit augue nec leo. Integer ornare venenatis
-            facilisis. Phasellus sit amet dui est. Aliquam metus metus,
-            venenatis sed massa et, cursus tempor arcu. Proin eu lectus in dui
-            suscipit luctus eu ut sapien. Curabitur mattis hendrerit nunc non
-            porta. Aenean fermentum sagittis sapien, vitae commodo lectus
-            aliquet ac. Fusce non est quis ante vulputate pellentesque in in
-            arcu. Maecenas porta ut augue eu sodales. Morbi tristique quis ante
-            vitae egestas. Integer vulputate dolor hendrerit erat aliquet, nec
-            gravida eros porttitor.
+          <p className="py-2 text-slate-800 font-md">
+            Hi my name is "Omar Shamil". I was born in 2002 in Turkey. There is
+            nothing much to talk about myself. All I can say is that I love
+            creating beneficial products in all of my interests. I said
+            "interests" 'cuz I'm also into music and playing guitar on my own
+            Youtube Channel.
           </p>
 
-          <p className="hover:text-white py-2 text-gray-300 underline cursor-pointer">
+          <p className="hover:text-slate-900 py-2 text-slate-500 underline cursor-pointer">
             Check out some of my latest videos.
           </p>
           <div className="w-[75%] h-auto m-auto flex border-8 border-slate-600 rounded-lg shadow-gray-400 shadow-md items-center justify-center">

@@ -10,13 +10,13 @@ const Contact = () => {
   return (
     <div id="contact" className="w-full lg:h-screen">
       <div className="max-w-[1240px] m-auto px-2 py-16 w-full">
-        <p className="text-xl tracking-widest uppercase text-slate-800 border-b border-slate-800 ">
+        <p className="text-xl tracking-widest uppercase border-b  ">
           Contact
         </p>
         <h2 className="py-4">Get In Touch</h2>
         <div className="grid lg:grid-cols-5 gap-8">
           {/* left */}
-          <div className="col-span-3 lg:col-span-2 w-full shadow-md shadow-gray-400 rounded-lg p-4">
+          <div className="col-span-3 lg:col-span-2 w-full shadow-md shadow-slate-800 rounded-lg p-4">
             <div className="lg:p-4 h-full">
               <div>
                 <img
@@ -77,7 +77,7 @@ const Contact = () => {
           </div>
           {/* right */}
 
-          <div className="col-span-3 w-full h-auto shadow-lg shadow-gray-400 rounded-lg lg:p-4">
+          <div className="col-span-3 w-full h-auto shadow-md shadow-slate-800 rounded-lg lg:p-4">
             <div className="p-4">
               <form action="">
                 <div className="grid md:grid-cols-2 gap-4 w-full py-2">
@@ -137,7 +137,7 @@ const Contact = () => {
         </div>
         <div className="flex justify-center py-12">
           <Link href="/">
-            <div className="rounded-xl shadow-lg shadow-gray-400 p-4 cursor-pointer hover:scale-105 ease-in duration-300">
+            <div className="rounded-xl shadow-md shadow-slate-800 p-4 cursor-pointer hover:scale-105 ease-in duration-300">
               <HiOutlineChevronDoubleUp className="text-[#5651e5]" size={30} />
             </div>
           </Link>

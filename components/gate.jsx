@@ -10,11 +10,11 @@ const Sentence = sentence();
 
 
 const Gate = () => {
-  return (
-    <div className="flex flex-col justify-items items-center gate py-10 m-4">
-      <input type="text" />
-      <p className="text-center">{Sentence}</p>
-    </div>
+  return (<></>
+    // <div className="flex flex-col justify-items items-center gate py-10 m-4">
+    //   <input type="text" />
+    //   <p className="text-center">{Sentence}</p>
+    // </div>
   );
 };
 

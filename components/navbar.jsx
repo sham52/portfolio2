@@ -32,7 +32,7 @@ const Navbar = () => {
           : "fixed w-full h-20 z-[100]"
       }
     >
-      <div className="flex justify-between items-center w-full h-full px-2 2xl:px-16">
+      <div className="flex justify-between items-center w-full h-full px-2 2xl:px-16 ">
         <Link href="/">
           <>
             <Image width="100" height="50" src="/assets/sham.png" />
@@ -41,7 +41,7 @@ const Navbar = () => {
         <div>
           <ul className="hidden md:flex">
             <Link href="/">
-              <li className=" text-gray-300 hover:text-white ml-10 text-sm uppercase hover:border-b  ">
+              <li className=" text-gray-300 hover:text-white ml-10 text-sm uppercase hover:border-b ">
                 Home
               </li>
             </Link>

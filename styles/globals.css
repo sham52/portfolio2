@@ -6,10 +6,10 @@
 
 @layer base {
   html{
-    @apply scroll-smooth;
+    @apply scroll-smooth duration-300 ease-in;
   }
   body {
-    @apply bg-gradient-to-t from-zinc-100 to-zinc-200
+    @apply bg-gradient-to-t from-slate-600  to-slate-800
       tracking-wide;
   }
   h1,
@@ -18,8 +18,15 @@
   h4,
   h5,
   h6 {
-    @apply font-bold;
+    @apply font-bold text-white;
   }
+  p{
+    @apply text-white text-lg;
+  }
+  border {
+    @apply border-white;
+  }
+ 
   h1 {
     @apply text-4xl sm:text-5xl md:text-6xl;
   }

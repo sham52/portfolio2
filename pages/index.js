@@ -13,6 +13,8 @@ import Gate from "../components/gate";
 
 export default function Home() {
   return (
+    <div className="smooth-scroll">
+
     <>
       <Head>
         <title>Shamil | Jack Of All Trades</title>
@@ -28,5 +30,6 @@ export default function Home() {
       <Contact />
       <Gate/>
     </>
+    </div>
   );
 }

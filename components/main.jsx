@@ -12,10 +12,10 @@ import { TypeAnimation } from "react-type-animation";
 
 const Main = () => {
   return (
-    <div id="home" className="scroll-smooth bg-gradient-to-t from-slate-600  to-slate-800 w-full h-screen text-center">
+    <div id="home" className="w-full h-screen text-center">
       <div className="max-w-[1240px] w-full h-full mx-auto p-2 flex justify-center items-center">
         <div className="flex flex-col justify-center items-center">
-          <p className="uppercase text-sm tracking-widest border-b text-white border-slate-500 ">
+          <p className="uppercase text-sm tracking-widest content-none border-b  text-white border-slate-500 ">
             JACK OF ALL TRADES
           </p>
           <Image
@@ -48,7 +48,7 @@ const Main = () => {
               repeat={Infinity}
             />
           </h1>
-          <p className="text-lg py-4 text-white max-w-[70%] m-auto">
+          <p className="py-4 text-white max-w-[70%] m-auto">
             Hi! My name is Shamil. I am a student at{" "}
             <a
               className="italic"

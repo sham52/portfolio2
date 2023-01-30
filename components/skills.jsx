@@ -5,9 +5,7 @@ const Skills = () => {
   return (
     <div id="skills" className="w-full lg:h-screen p-2">
       <div className="max-w-[1240px] mx-auto flex flex-col justify-center h-full">
-        <p className="text-xl tracking widest uppercase  border-b ">
-          Skills
-        </p>
+        <p className="text-xl tracking widest uppercase  border-b ">Skills</p>
         <h2 className="py-4 ">What I Can Do</h2>
         <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-10 px-10">
           <div className="bg-slate-500 p-6 shadow-xl rounded-xl hover:scale-105 ease-in duration-300 ">
@@ -105,10 +103,15 @@ const Skills = () => {
           <div className="bg-slate-500 p-6 shadow-xl rounded-xl hover:scale-105 ease-in duration-300">
             <div className="grid grid-cols-2 gap-4 justify-center items-center">
               <div className="m-auto">
-                <Image src="/assets/html.png" height="64" width="64" alt="/" />
+                <Image
+                  src="/assets/python.png"
+                  height="64"
+                  width="64"
+                  alt="/"
+                />
               </div>
               <div className="flex flex-col items-center justify-center ">
-                <h3>HTML</h3>
+                <h3>PYTHON</h3>
               </div>
             </div>
           </div>

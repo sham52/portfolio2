@@ -7,7 +7,9 @@ import About from "../components/about";
 import Skills from "../components/skills";
 import Projects from "../components/projects";
 import Contact from "../components/contact";
+import Sound from "../components/Sound";
 import Gate from "../components/gate";
+
 
 // const inter = Inter({ subsets: ['latin'] })
 
@@ -29,6 +31,7 @@ export default function Home() {
       <Projects />
       <Contact />
       <Gate/>
+      <Sound/>
     </>
     </div>
   );

@@ -4,7 +4,7 @@ import propertyImg from "../public/assets/projects.png";
 import ProjectItem from "./project";
 const Projects = () => {
   return (
-    <div className="w-full">
+    <div id= "projects" className="w-full">
       <div className="max-w-[1240px] mx-auto px-2 py-16">
         <p className="text-slate-800 tracking-widest uppercase text-xl border-b border-slate-800">
           {" "}

@@ -12,7 +12,7 @@ import { TypeAnimation } from "react-type-animation";
 
 const Main = () => {
   return (
-    <div className="bg-gradient-to-t from-slate-600  to-slate-800 w-full h-screen text-center">
+    <div id="home" className="scroll-smooth bg-gradient-to-t from-slate-600  to-slate-800 w-full h-screen text-center">
       <div className="max-w-[1240px] w-full h-full mx-auto p-2 flex justify-center items-center">
         <div className="flex flex-col justify-center items-center">
           <p className="uppercase text-sm tracking-widest border-b text-white border-slate-500 ">

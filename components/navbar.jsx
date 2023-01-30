@@ -45,17 +45,22 @@ const Navbar = () => {
                 Home
               </li>
             </Link>
-            <Link href="/">
+            <Link href="/#about">
+              <li className=" text-gray-300 hover:text-white ml-10 text-sm uppercase hover:border-b  ">
+                About
+              </li>
+            </Link>
+            <Link href="/#skills">
               <li className=" text-gray-300 hover:text-white  ml-10 text-sm uppercase hover:border-b ">
                 Skills
               </li>
             </Link>
-            <Link href="/">
+            <Link href="/#projects">
               <li className=" text-gray-300 hover:text-white  ml-10 text-sm uppercase hover:border-b ">
                 Projects
               </li>
             </Link>
-            <Link href="/">
+            <Link href="/#contact">
               <li className=" text-gray-300 hover:text-white  ml-10 text-sm uppercase hover:border-b ">
                 Contact
               </li>
@@ -105,16 +110,16 @@ const Navbar = () => {
               <Link href="/">
                 <li className="text-slate-700 py-4 text-sm">Home</li>
               </Link>
-              <Link href="/">
+              <Link href="/#about">
                 <li className="text-slate-700 py-4 text-sm">About</li>
               </Link>
-              <Link href="/">
+              <Link href="/#skills">
                 <li className="text-slate-700 py-4 text-sm">Skills</li>
               </Link>
-              <Link href="/">
+              <Link href="/#projects">
                 <li className="text-slate-700 py-4 text-sm">Projects</li>
               </Link>
-              <Link href="/">
+              <Link href="/#contact">
                 <li className="text-slate-700 py-4 text-sm">Contact</li>
               </Link>
             </ul>

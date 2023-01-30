@@ -3,7 +3,7 @@ import Image from "next/Image";
 
 const Skills = () => {
   return (
-    <div className="w-full lg:h-screen p-2">
+    <div id="skills" className="w-full lg:h-screen p-2">
       <div className="max-w-[1240px] mx-auto flex flex-col justify-center h-full">
         <p className="text-xl tracking widest uppercase text-slate-800 border-b border-slate-800">
           Skills
@@ -15,7 +15,7 @@ const Skills = () => {
               <div className="m-auto">
                 <Image src="/assets/html.png" height="64" width="64" alt="/" />
               </div>
-              <div className="flex flex-col items-center justify-center  ">
+              <div className="flex flex-col items-center justify-center text-white  ">
                 <h3>HTML</h3>
               </div>
             </div>
@@ -26,7 +26,7 @@ const Skills = () => {
               <div className="m-auto">
                 <Image src="/assets/css.png" height="64" width="64" alt="/" />
               </div>
-              <div className="flex flex-col items-center justify-center ">
+              <div className="flex flex-col items-center justify-center text-white ">
                 <h3>CSS</h3>
               </div>
             </div>

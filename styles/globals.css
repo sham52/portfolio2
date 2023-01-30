@@ -5,23 +5,31 @@
 
 
 @layer base {
-  body{
-    @apply bg-gradient-to-t from-zinc-100 to-zinc-200
-      tracking-wide
+  html{
+    @apply scroll-smooth;
   }
-  h1, h2, h3, h4, h5, h6 {
-    @apply font-bold
+  body {
+    @apply bg-gradient-to-t from-zinc-100 to-zinc-200
+      tracking-wide;
+  }
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    @apply font-bold;
   }
   h1 {
-    @apply text-4xl sm:text-5xl md:text-6xl 
+    @apply text-4xl sm:text-5xl md:text-6xl;
   }
   h2 {
-    @apply text-3xl sm:text-4xl
+    @apply text-3xl sm:text-4xl;
   }
-  li{
-    @apply cursor-pointer
+  li {
+    @apply cursor-pointer;
   }
-  button{
-    @apply shadow-xl shadow-gray-600 rounded-xl uppercase bg-gradient-to-r from-[#5651e5] to-[#709dff] text-white
+  button {
+    @apply shadow-xl shadow-gray-600 rounded-xl uppercase bg-gradient-to-r from-[#5651e5] to-[#709dff] text-white;
   }
 }

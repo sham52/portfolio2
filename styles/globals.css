@@ -23,6 +23,9 @@
   p{
     @apply text-white text-lg;
   }
+  label {
+      @apply text-white;
+  }
   border {
     @apply border-white;
   }

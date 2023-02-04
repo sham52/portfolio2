@@ -31,7 +31,7 @@ export default function Home() {
       <Projects />
       <Contact />
       <Gate/>
-      <Sound/>
+      {/* <Sound/> */}
     </>
     </div>
   );

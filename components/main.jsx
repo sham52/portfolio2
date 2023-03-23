@@ -12,10 +12,10 @@ import { TypeAnimation } from "react-type-animation";
 
 const Main = () => {
   return (
-    <div id="home" className="w-full h-screen text-center">
+    <div id="home" className="w-full h-screen pt-20 text-center">
       <div className="max-w-[1240px] w-full h-full mx-auto p-2 flex justify-center items-center">
         <div className="flex flex-col justify-center items-center">
-          <p className="uppercase text-sm tracking-widest content-none border-b  text-white border-slate-500 ">
+          <p className="uppercase text-sm tracking-widest content-none border-b   text-white border-slate-500 ">
             JACK OF ALL TRADES
           </p>
           <Image
@@ -49,14 +49,14 @@ const Main = () => {
             />
           </h1>
           <p className="py-4 text-white max-w-[70%] m-auto">
-            Hi! My name is Shamil. I am a student at{" "}
+            Hi! My name is Shamil. I am a student at 
             <a
               className="italic"
               href="https://www.tedu.edu.tr/en"
               target="_blank"
             >
-              TED University
-            </a>{" "}
+              &nbsp;TED University&nbsp;
+            </a>
             in the Department of Engineering. I am really into software
             development. I'm working on both responsive web, front-end and
             back-end technologies lately. Currently, I am learning Javascript
